@@ -1,0 +1,4 @@
+text-shadow: 5px 10px #fff, 7px 12px 0 #E84F35, 7px 8px 0 #E84F35, 3px 12px 0 #E84F35, 3px 10px 0 #E84F35;
+color: #E84F35;
+
+text-shadow: 3px 3px #fff, 4px 4px 0 #E84F35, 4px 2px 0 #E84F35, 2px 4px 0 #E84F35, 2px 2px 0 #E84F35;
