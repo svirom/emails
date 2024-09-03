@@ -81,6 +81,17 @@
       padding: 0;
       width: 100%!important;
     }
+
+    @media only screen and (max-width: 480px) {
+     
+      tr[class="row_mobile"] {
+        display: none !important;
+      }
+      td[class="font_mobile"],
+      a[class="font_mobile"] {
+        font-size: 14px !important;
+      }
+    }
     
   </style>
 </head>
@@ -166,7 +177,7 @@
                               <td height="24" style="font-size: 24px; line-height: 24px;">&nbsp;</td>
                             </tr>
                             <tr>
-                              <td align="left" valign="middle" style="padding-left:24px; padding-right:4px;">
+                              <td align="left" valign="middle" style="padding-left:24px; padding-right:8px;">
                                 <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left">
                                   <tbody>
                                     <tr>
@@ -176,7 +187,7 @@
                                       <td height="4" style="font-size: 4px; line-height: 4px;">&nbsp;</td>
                                     </tr>
                                     <tr>
-                                      <td align="left" style="color: #172A3A; font-family: Arial, sans-serif; font-size: 16px; line-height: 130%;">Сума сплачених рахунків</td>
+                                      <td align="left" style="color: #172A3A; font-family: Arial, sans-serif; font-size: 16px; line-height: 130%;" class="font_mobile">Сума сплачених рахунків</td>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -216,7 +227,7 @@
                               <td height="24" style="font-size: 24px; line-height: 24px;">&nbsp;</td>
                             </tr>
                             <tr>
-                              <td align="left" valign="middle" style="padding-left:24px; padding-right:4px;">
+                              <td align="left" valign="middle" style="padding-left:24px; padding-right:8px;">
                                 <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left">
                                   <tbody>
                                     <tr>
@@ -226,7 +237,7 @@
                                       <td height="4" style="font-size: 4px; line-height: 4px;">&nbsp;</td>
                                     </tr>
                                     <tr>
-                                      <td align="left" style="color: #172A3A; font-family: Arial, sans-serif; font-size: 16px; line-height: 130%;">Кількість виконаних транзакцій</td>
+                                      <td align="left" style="color: #172A3A; font-family: Arial, sans-serif; font-size: 16px; line-height: 130%;" class="font_mobile">Кількість виконаних транзакцій</td>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -266,7 +277,7 @@
                               <td height="24" style="font-size: 24px; line-height: 24px;">&nbsp;</td>
                             </tr>
                             <tr>
-                              <td align="left" valign="middle" style="padding-left:24px; padding-right:4px;">
+                              <td align="left" valign="middle" style="padding-left:24px; padding-right:8px;">
                                 <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left">
                                   <tbody>
                                     <tr>
@@ -276,14 +287,14 @@
                                       <td height="4" style="font-size: 4px; line-height: 4px;">&nbsp;</td>
                                     </tr>
                                     <tr>
-                                      <td align="left" style="color: #172A3A; font-family: Arial, sans-serif; font-size: 16px; line-height: 130%;">Зібрано через “Мої збори”</td>
+                                      <td align="left" style="color: #172A3A; font-family: Arial, sans-serif; font-size: 16px; line-height: 130%;" class="font_mobile">Зібрано через “Мої збори”</td>
                                     </tr>
                                     <tr>
                                       <td height="4" style="font-size: 4px; line-height: 4px;">&nbsp;</td>
                                     </tr>
                                     <tr>
                                       <td align="left" style="color: #172A3A; font-family: Arial, sans-serif; font-size: 16px; line-height: 130%;">
-                                        <a href="#" style="color: #E84F35; font-family: Arial, sans-serif; font-size: 16px; line-height: 130%; text-decoration: underline;">Проглянути в кабінеті</a>
+                                        <a href="#" style="color: #E84F35; font-family: Arial, sans-serif; font-size: 16px; line-height: 130%; text-decoration: underline;" class="font_mobile">Проглянути в кабінеті</a>
                                       </td>
                                     </tr>
                                   </tbody>
@@ -329,24 +340,10 @@
                             <tr>
                               <td height="16" style="font-size: 16px; line-height: 16px;">&nbsp;</td>
                             </tr>
-                            
+
                             <tr>
-                              <td align="left" width="100%" valign="top">
-                                <table cellpadding="0" cellspacing="0" border="0" align="left">
-                                  <tbody>
-                                    <tr>
-                                      <td align="left" style="padding-right: 4px; color: #172A3A; font-family: Arial, sans-serif; font-size: 16px; line-height: 130%;">Переказ з картки на картку</td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                                <table cellpadding="0" cellspacing="0" border="0" align="right">
-                                  <tbody>
-                                    <tr>
-                                      <td align="right" style="font-family: Arial, sans-serif; color: #3B566E; font-size: 16px; line-height: 130%;">300.00 грн</td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </td>
+                              <td align="left" valign="top" style="padding-right: 8px; color: #172A3A; font-family: Arial, sans-serif; font-size: 16px; line-height: 130%;">Переказ з картки на картку</td>
+                              <td align="right" valign="top" style="font-family: Arial, sans-serif; color: #3B566E; font-size: 16px; line-height: 130%; white-space: nowrap;">300.00 грн</td>
                             </tr>
 
                             <tr>
@@ -354,34 +351,6 @@
                             </tr>
                             <tr>
                               <td height="1" bgcolor="#DEE7F3" width="100%" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
-                            </tr>
-                            <tr>
-                              <td height="8" style="font-size: 8px; line-height: 8px;">&nbsp;</td>
-                            </tr>
-
-                            <tr>
-                              <td align="left" width="100%" valign="top">
-                                <table cellpadding="0" cellspacing="0" border="0" align="left">
-                                  <tbody>
-                                    <tr>
-                                      <td align="left" style="padding-right: 4px; color: #172A3A; font-family: Arial, sans-serif; font-size: 16px; line-height: 130%;">Переказ з картки на картку</td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                                <table cellpadding="0" cellspacing="0" border="0" align="right">
-                                  <tbody>
-                                    <tr>
-                                      <td align="right" style="font-family: Arial, sans-serif; color: #3B566E; font-size: 16px; line-height: 130%;">100.00 грн</td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </td>
-                            </tr>
-
-                            <tr>
-                              <td height="8" style="font-size: 8px; line-height: 8px;">&nbsp;</td>
-                            </tr>
-                            <tr>
                               <td height="1" bgcolor="#DEE7F3" width="100%" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
                             </tr>
                             <tr>
@@ -389,22 +358,24 @@
                             </tr>
 
                             <tr>
-                              <td align="left" width="100%" valign="top">
-                                <table cellpadding="0" cellspacing="0" border="0" align="left">
-                                  <tbody>
-                                    <tr>
-                                      <td align="left" style="padding-right: 4px; color: #172A3A; font-family: Arial, sans-serif; font-size: 16px; line-height: 130%;">Лівівенергозбут</td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                                <table cellpadding="0" cellspacing="0" border="0" align="right">
-                                  <tbody>
-                                    <tr>
-                                      <td align="right" style="font-family: Arial, sans-serif; color: #3B566E; font-size: 16px; line-height: 130%;">50.00 грн</td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </td>
+                              <td align="left" valign="top" style="padding-right: 8px; color: #172A3A; font-family: Arial, sans-serif; font-size: 16px; line-height: 130%;">Переказ з картки на картку</td>
+                              <td align="right" valign="top" style="font-family: Arial, sans-serif; color: #3B566E; font-size: 16px; line-height: 130%; white-space: nowrap;">100.00 грн</td>
+                            </tr>
+
+                            <tr>
+                              <td height="8" style="font-size: 8px; line-height: 8px;">&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td height="1" bgcolor="#DEE7F3" width="100%" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+                              <td height="1" bgcolor="#DEE7F3" width="100%" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td height="8" style="font-size: 8px; line-height: 8px;">&nbsp;</td>
+                            </tr>
+
+                            <tr>
+                              <td align="left" valign="top" style="padding-right: 8px; color: #172A3A; font-family: Arial, sans-serif; font-size: 16px; line-height: 130%;">Лівівенергозбут</td>
+                              <td align="right" valign="top" style="font-family: Arial, sans-serif; color: #3B566E; font-size: 16px; line-height: 130%; white-space: nowrap;">50.00 грн</td>
                             </tr>
 
                             <tr>
@@ -465,7 +436,7 @@
                         <td align="left" valign="middle" width="100%">
                           <table width="330" cellpadding="0" cellspacing="0" border="0" align="left">
                             <tbody>
-                              <tr>
+                              <tr class="row_mobile">
                                 <td height="22" style="font-size: 22px; line-height: 22px;">&nbsp;</td>
                               </tr>
                               <tr>
